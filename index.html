@@ -1298,44 +1298,101 @@
         @media (max-width: 480px) {
             /* ... existing mobile styles ... */
 
-            .brands-section {
-                padding: 1.5rem 0.5rem !important;
-                /* Reduce side padding to give logos more room */
-            }
+                    /* --- BRANDS NEW STYLES --- */
+        .brands-section {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 6rem 2rem;
+        }
 
+        .brands-title {
+            font-size: 0.9rem;
+            margin-bottom: 4rem;
+            opacity: 0.5;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+            font-family: 'HelveticaLocal', sans-serif;
+        }
+
+        .brands-grid {
+            display: flex;
+            justify-content: center;
+            gap: 5rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .brand-item {
+            position: relative;
+            cursor: pointer;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .brand-logo {
+            display: block;
+            height: 50px;
+            width: auto;
+            opacity: 0.4;
+            filter: grayscale(100%);
+            transition: all 0.5s ease;
+            position: relative;
+            z-index: 2; /* Logo glow ke upar rahega */
+        }
+
+        /* --- GLOW EFFECT (Hidden by default) --- */
+        .glow-effect {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.5);
+            width: 20px;
+            height: 20px;
+            background: radial-gradient(circle, rgba(255, 107, 53, 0.6) 0%, rgba(255, 107, 53, 0) 70%);
+            border-radius: 50%;
+            opacity: 0;
+            z-index: 1; /* Logo ke peeche */
+            transition: all 0.6s ease;
+        }
+
+        /* --- ACTIVE STATE (Javascript se add hoga) --- */
+        .brand-item.active {
+            transform: scale(1.15); /* Halka sa zoom */
+        }
+
+        .brand-item.active .brand-logo {
+            opacity: 1;
+            filter: grayscale(0%) drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+            height: 60px; /* Logo thoda bada hoga */
+        }
+
+        .brand-item.active .glow-effect {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(10); /* Glow bada hokar failega */
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 768px) {
             .brands-grid {
-                display: flex !important;
-                flex-wrap: nowrap !important;
-                /* Force all items onto one line */
-                justify-content: space-between !important;
-                gap: 0.5rem !important;
-                /* Minimal gap to prevent touching */
-                align-items: center !important;
+                gap: 2rem;
             }
-
             .brand-item {
-                flex: 1;
-                /* Ensure each item takes up equal space */
-                display: flex;
-                justify-content: center;
+                width: 80px;
+                height: 80px;
             }
-
             .brand-logo {
-                height: auto !important;
-                /* Allow height to scale proportionally */
-                max-height: 35px !important;
-                /* Cap the height so they fit vertically */
-                width: 100% !important;
-                /* Let them fill the flex container width */
-                max-width: 80px !important;
-                /* Prevent any single logo from becoming too large */
-                object-fit: contain !important;
-                /* Ensure logos aren't distorted */
+                height: 35px;
+            }
+            .brand-item.active .brand-logo {
+                height: 45px;
             }
         }
 
-        @media (max-width: 480px) {
-            /* ... your other mobile styles ... */
 
             /* 1. Decrease the side blur power (Edge Fades) */
             .portfolio-carousel::before,
@@ -1590,24 +1647,31 @@ button:hover ~ .custom-cursor {
         </div>
     </section>
 
-    <section class="brands-section">
-	  <div class="brands-title">Trusted by innovative brands</div>
-	  <div class="brands-grid">
-		<div class="brand-item"><a href="https://postimg.cc/9wyFwP3M" target="_blank" rel="noopener noreferrer"><img
-			  class="brand-logo" src="https://i.postimg.cc/mk5cqV8Q/250px-BMW-svg.png"
-			  alt="BMW logo"></a></div>
-		<div class="brand-item"><a href="https://postimg.cc/MvTzS8HH" target="_blank" rel="noopener noreferrer"><img
-			  class="brand-logo" src="https://i.postimg.cc/zXwvTz1C/Mercedes-Benz-Logo.png"
-			  alt="Mercedes Benz logo"></a></div>
-		<div class="brand-item"><a href="https://postimg.cc/75R6cZnp" target="_blank" rel="noopener noreferrer"><img
-			  class="brand-logo"
-			  src="https://i.postimg.cc/KYGM1Kkv/559522-v1-1600x0.jpg"
-			  alt="Lamborghini logo"></a></div>
-		<div class="brand-item"><a href="https://postimg.cc/qgBtZqfn" target="_blank" rel="noopener noreferrer"><img
-			  class="brand-logo" src="https://i.postimg.cc/MZVyHfds/porsche-logo-png-seeklogo-168544.png" alt="Porsche logo"></a>
-		</div>
-	  </div>
+        <section class="brands-section">
+        <div class="brands-title">Trusted by innovative brands</div>
+        <div class="brands-grid">
+            <div class="brand-item" onclick="activateBrand(this)">
+                <div class="glow-effect"></div>
+                <img class="brand-logo" src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" alt="BMW">
+            </div>
+
+            <div class="brand-item" onclick="activateBrand(this)">
+                <div class="glow-effect"></div>
+                <img class="brand-logo" src="https://upload.wikimedia.org/wikipedia/commons/9/90/Mercedes-Logo.svg" alt="Mercedes Benz">
+            </div>
+
+            <div class="brand-item" onclick="activateBrand(this)">
+                <div class="glow-effect"></div>
+                <img class="brand-logo" src="https://upload.wikimedia.org/wikipedia/en/d/df/Lamborghini_Logo.svg" alt="Lamborghini">
+            </div>
+
+            <div class="brand-item" onclick="activateBrand(this)">
+                <div class="glow-effect"></div>
+                <img class="brand-logo" src="https://upload.wikimedia.org/wikipedia/en/8/8c/Porsche_logo.svg" alt="Porsche">
+            </div>
+        </div>
     </section>
+
 
     <section class="about-section reveal">
         <div class="about-grid">
@@ -2094,7 +2158,28 @@ button:hover ~ .custom-cursor {
         });
     });
 </script>
+	
+    <script>
+        function activateBrand(element) {
+            // 1. Check karo agar user ne same brand par dubara click kiya
+            if (element.classList.contains('active')) {
+                // Agar chaho to same click pe band kar sakte ho, ya kuch mat karo.
+                // Abhi ke liye hum active hi rehne dete hain ya toggle kar sakte hain.
+                // element.classList.remove('active'); // Uncomment to toggle OFF
+                return; 
+            }
 
+            // 2. Baki sabhi brands se 'active' class hata do (Reset)
+            const allBrands = document.querySelectorAll('.brand-item');
+            allBrands.forEach(item => {
+                item.classList.remove('active');
+            });
+
+            // 3. Jispar click kiya uspar 'active' class laga do
+            element.classList.add('active');
+        }
+	</script>
+	
 </body>
 
 </html>
