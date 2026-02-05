@@ -1277,7 +1277,95 @@
             }
 
             .portfolio-part {
-                font-size: 1.2em !important;
+                     /* --- BRANDS POWER CSS --- */
+        .brands-section {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .brands-grid {
+            display: flex;
+            justify-content: center;
+            gap: 3rem; /* Mobile ke liye gap kam rakha hai */
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .brand-item {
+            position: relative;
+            cursor: pointer;
+            width: 90px;
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Bouncy effect */
+            -webkit-tap-highlight-color: transparent; /* Mobile blue box remove */
+        }
+
+        .brand-logo {
+            display: block;
+            height: 45px;
+            width: auto;
+            opacity: 0.5;
+            filter: grayscale(100%);
+            transition: all 0.4s ease;
+            position: relative;
+            z-index: 5;
+        }
+
+        /* --- GLOW EFFECT --- */
+        .glow-effect {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.5);
+            width: 60px;
+            height: 60px;
+            background: radial-gradient(circle, rgba(255, 107, 53, 0.8) 0%, rgba(255, 107, 53, 0) 70%);
+            border-radius: 50%;
+            opacity: 0;
+            z-index: 1;
+            pointer-events: none;
+            transition: all 0.4s ease;
+        }
+
+        /* --- ACTIVE STATE (FORCE ZOOM) --- */
+        .brand-item.active {
+            transform: scale(1.4) !important; /* Zoom badha diya aur force kiya */
+            z-index: 100 !important; /* Sabse upar aayega */
+        }
+
+        .brand-item.active .brand-logo {
+            opacity: 1 !important;
+            filter: grayscale(0%) drop-shadow(0 5px 15px rgba(0,0,0,0.5)) !important;
+            height: 55px !important; /* Logo size bhi badhega */
+        }
+
+        .brand-item.active .glow-effect {
+            opacity: 1 !important;
+            transform: translate(-50%, -50%) scale(1.5) !important; /* Glow faila diya */
+        }
+
+        /* Mobile Fix */
+        @media (max-width: 768px) {
+            .brands-grid {
+                gap: 1.5rem;
+            }
+            .brand-item {
+                width: 70px;
+                height: 70px;
+            }
+            .brand-logo {
+                height: 35px;
+            }
+            /* Mobile par zoom thoda kam taki screen se bahar na jaye */
+            .brand-item.active {
+                transform: scale(1.3) !important; 
+            }
+        }
+   font-size: 1.2em !important;
                 top: 0.1em !important;
                 /* Pull the script font closer to the baseline */
                 left: -0.1em !important;
@@ -1298,101 +1386,7 @@
         @media (max-width: 480px) {
             /* ... existing mobile styles ... */
 
-                    /* --- BRANDS NEW STYLES --- */
-        .brands-section {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 6rem 2rem;
-        }
-
-        .brands-title {
-            font-size: 0.9rem;
-            margin-bottom: 4rem;
-            opacity: 0.5;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            text-align: center;
-            font-family: 'HelveticaLocal', sans-serif;
-        }
-
-        .brands-grid {
-            display: flex;
-            justify-content: center;
-            gap: 5rem;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .brand-item {
-            position: relative;
-            cursor: pointer;
-            width: 100px;
-            height: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-        }
-
-        .brand-logo {
-            display: block;
-            height: 50px;
-            width: auto;
-            opacity: 0.4;
-            filter: grayscale(100%);
-            transition: all 0.5s ease;
-            position: relative;
-            z-index: 2; /* Logo glow ke upar rahega */
-        }
-
-        /* --- GLOW EFFECT (Hidden by default) --- */
-        .glow-effect {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) scale(0.5);
-            width: 20px;
-            height: 20px;
-            background: radial-gradient(circle, rgba(255, 107, 53, 0.6) 0%, rgba(255, 107, 53, 0) 70%);
-            border-radius: 50%;
-            opacity: 0;
-            z-index: 1; /* Logo ke peeche */
-            transition: all 0.6s ease;
-        }
-
-        /* --- ACTIVE STATE (Javascript se add hoga) --- */
-        .brand-item.active {
-            transform: scale(1.15); /* Halka sa zoom */
-        }
-
-        .brand-item.active .brand-logo {
-            opacity: 1;
-            filter: grayscale(0%) drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
-            height: 60px; /* Logo thoda bada hoga */
-        }
-
-        .brand-item.active .glow-effect {
-            opacity: 1;
-            transform: translate(-50%, -50%) scale(10); /* Glow bada hokar failega */
-        }
-
-        /* Mobile Adjustments */
-        @media (max-width: 768px) {
-            .brands-grid {
-                gap: 2rem;
-            }
-            .brand-item {
-                width: 80px;
-                height: 80px;
-            }
-            .brand-logo {
-                height: 35px;
-            }
-            .brand-item.active .brand-logo {
-                height: 45px;
-            }
-        }
-
+                    
 
             /* 1. Decrease the side blur power (Edge Fades) */
             .portfolio-carousel::before,
@@ -1667,10 +1661,10 @@ button:hover ~ .custom-cursor {
 
             <div class="brand-item" onclick="activateBrand(this)">
                 <div class="glow-effect"></div>
-                <img class="brand-logo" src="https://upload.wikimedia.org/wikipedia/en/8/8c/Porsche_logo.svg" alt="Porsche">
+                <img class="brand-logo" src="https://cdn.worldvectorlogo.com/logos/porsche-6.svg" alt="Porsche">
             </div>
-        </div>
-    </section>
+          </div>
+        </section>
 
 
     <section class="about-section reveal">
