@@ -14,7 +14,7 @@
 </p>
 
 <!-- Visitors Counter -->
-<img src="https://www.google.com/search?q=https://komarev.com/ghpvc/%3Fusername%3Dsatyam-devx%26label%3DPortfolio%2520Views%26color%3D0e75b6%26style%3Dflat" alt="watchers" />
+<img src="https://komarev.com/ghpvc/?username=Satyam-devx&label=Portfolio%20Views&color=0e75b6&style=for-the-badge" alt="watchers" />
 </div>
 
 ## 🌟 About The Project
