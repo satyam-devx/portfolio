@@ -34,15 +34,7 @@ Welcome to my personal portfolio! This website is a showcase of my journey as a 
 This portfolio is built using the following technologies:
 
 <div align="center">
-<!-- Replace or add more skills based on your actual stack -->
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/HTML5-E34F26%3Fstyle%3Dfor-the-badge%26logo%3Dhtml5%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/CSS3-1572B6%3Fstyle%3Dfor-the-badge%26logo%3Dcss3%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/JavaScript-F7DF1E%3Fstyle%3Dfor-the-badge%26logo%3Djavascript%26logoColor%3Dblack" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/React-20232A%3Fstyle%3Dfor-the-badge%26logo%3Dreact%26logoColor%3D61DAFB" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Tailwind_CSS-38B2AC%3Fstyle%3Dfor-the-badge%26logo%3Dtailwind-css%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Git-F05032%3Fstyle%3Dfor-the-badge%26logo%3Dgit%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub-100000%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/VS_Code-0078D4%3Fstyle%3Dfor-the-badge%26logo%3Dvisual%2520studio%2520code%26logoColor%3Dwhite" />
+  <img src="https://i.postimg.cc/yYq17J3n/Picsart-26-02-06-11-36-45-656.png" width="100%" />
 </div>
 
 ## 📊 GitHub Stats
