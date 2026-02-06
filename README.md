@@ -37,6 +37,10 @@ This portfolio is built using the following technologies:
   <img src="https://i.postimg.cc/yYq17J3n/Picsart-26-02-06-11-36-45-656.png" width="100%" />
 </div>
 
+| ![Satyam's GitHub stats](https://github-readme-stats.vercel.app/api?username=satyam-devx&show_icons=true&theme=radical) | [![Satyam's GitHub Streak](https://streak-stats.demolab.com?user=satyam-devx&theme=dark&border_radius=7&mode=weekly)](https://git.io/streak-stats) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=satyam-devx&layout=compact&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats) | [![Satyam's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=satyam-devx&bg_color=ffffff&color=ff047d&line=9e4c98&point=403d3d&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph) |
+
 ## 🚀 Getting Started
 
 If you want to run this project locally, follow these steps:
