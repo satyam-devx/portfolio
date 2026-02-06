@@ -41,15 +41,15 @@ This portfolio is built using the following technologies:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Satyam-devx&show_icons=true&theme=radical&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=Satyam-devx&show_icons=true&theme=radical&hide_border=true&cache_seconds=1800" />
 
 <br><br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Satyam-devx&theme=radical&hide_border=true" />
+<img src="https://streak-stats.demolab.com?user=Satyam-devx&theme=radical&hide_border=true&cache_seconds=1800" />
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satyam-devx&layout=compact&theme=radical&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satyam-devx&layout=compact&theme=radical&hide_border=true&cache_seconds=1800" />
 
 </div>
 
