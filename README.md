@@ -1,6 +1,6 @@
 <!-- Banner Image (Optional: Replace with your own banner) -->
 <div align="center">
-<img src="https://www.google.com/search?q=https://capsule-render.vercel.app/api%3Ftype%3Dwaving%26color%3Dgradient%26height%3D300%26section%3Dheader%26text%3DWelcome%2520to%2520Satyam%27s%2520Portfolio%26fontSize%3D90%26fontAlignY%3D35" alt="Header" width="100%"/>
+<img src="https://www.google.com/search?q=https://capsule-render.vercel.app/api%3Ftype%3Dwaving%26color%3Dgradient%26height%3D300%26section%3Dheader%26text%3DWelcome%2520to%2520satyam%27s%2520Portfolio%26fontSize%3D90%26fontAlignY%3D35" alt="Header" width="100%"/>
 </div>
 
 <div align="center">
@@ -13,7 +13,7 @@
 </p>
 
 <!-- Visitors Counter -->
-<img src="https://www.google.com/search?q=https://komarev.com/ghpvc/%3Fusername%3DSatyam-devx%26label%3DPortfolio%2520Views%26color%3D0e75b6%26style%3Dflat" alt="watchers" />
+<img src="https://www.google.com/search?q=https://komarev.com/ghpvc/%3Fusername%3Dsatyam-devx%26label%3DPortfolio%2520Views%26color%3D0e75b6%26style%3Dflat" alt="watchers" />
 </div>
 
 ## 🌟 About The Project
@@ -48,13 +48,13 @@ This portfolio is built using the following technologies:
 
 <div align="center">
 <!-- GitHub Stats Card -->
-<img src="https://github-readme-stats.vercel.app/api?username=Satyam-devx&show_icons=true&theme=radical&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api?username=satyam-devx&show_icons=true&theme=radical&hide_border=true"/>
 
 <!-- Top Languages Card -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satyam-devx&layout=compact&theme=radical&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=satyam-devx&layout=compact&theme=radical&hide_border=true"/>
 
 <!-- Streak Stats -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Satyam-devx&theme=radical&hide_border=true"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=satyam-devx&theme=radical&hide_border=true"/>
 </div>
 
 ## 🚀 Getting Started
@@ -63,7 +63,7 @@ If you want to run this project locally, follow these steps:
 
 - **Clone the repository**
   ```bash
-  git clone https://github.com/Satyam-devx/portfolio.git
+  git clone https://github.com/satyam-devx/portfolio.git
 
 - **Navigate to the project directory**
   ```bash
@@ -87,7 +87,7 @@ Got a question or just want to say hi? Feel free to reach out!
 
 Email: satyam160050@gmail.com
 
-GitHub: Satyam-devx
+GitHub: satyam-devx
 
 Instagram: @satyamtbh
 
