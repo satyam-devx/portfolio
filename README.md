@@ -39,19 +39,11 @@ This portfolio is built using the following technologies:
 
 ## 📊 GitHub Stats
 
-<div align="center">
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Satyam-devx&show_icons=true&theme=radical&hide_border=true)
 
-<img src="https://github-readme-stats.vercel.app/api?username=Satyam-devx&show_icons=true&theme=radical&hide_border=true&cache_seconds=1800" />
+![GitHub Streak](https://streak-stats.demolab.com?user=Satyam-devx&theme=radical&hide_border=true)
 
-<br><br>
-
-<img src="https://streak-stats.demolab.com?user=Satyam-devx&theme=radical&hide_border=true&cache_seconds=1800" />
-
-<br><br>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satyam-devx&layout=compact&theme=radical&hide_border=true&cache_seconds=1800" />
-
-</div>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Satyam-devx&layout=compact&theme=radical&hide_border=true)
 
 ## 🚀 Getting Started
 
