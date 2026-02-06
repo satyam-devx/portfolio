@@ -1,6 +1,7 @@
 <!-- Banner Image (Optional: Replace with your own banner) -->
 <div align="center">
-<img src="https://www.google.com/search?q=https://capsule-render.vercel.app/api%3Ftype%3Dwaving%26color%3Dgradient%26height%3D300%26section%3Dheader%26text%3DWelcome%2520to%2520satyam%27s%2520Portfolio%26fontSize%3D90%26fontAlignY%3D35" alt="Header" width="100%"/>
+<div align="center">
+  <img src="https://i.postimg.cc/xC7ZyzS9/Picsart-26-02-05-15-31-14-704.png" width="100%" />
 </div>
 
 <div align="center">
