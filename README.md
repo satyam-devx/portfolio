@@ -1,3 +1,8 @@
+- ### Hi there, I'm Satyam 👋  
+  ![](https://komarev.com/ghpvc/?username=satyam-devx&color=green)  
+  [![Telegram](https://img.shields.io/badge/Telegram-Theonesatyam-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Theonesatyam)  
+  [![Instagram](https://img.shields.io/badge/Instagram-satyamtbh-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/satyamtbh)
+
 <!-- Banner Image (Optional: Replace with your own banner) -->
 <div align="center">
 <div align="center">
@@ -29,12 +34,48 @@ Welcome to my personal portfolio! This website is a showcase of my journey as a 
 - 🌙 **Dark/Light Mode:** (If applicable) Seamless theme switching.  
 - 🔥 **Animations:** Smooth transitions and interactive elements.  
 
-## 🛠️ Tech Stack
-
-This portfolio is built using the following technologies:
+## ⚡ Languages I use  
 
 <div align="center">
-  <img src="https://i.postimg.cc/yYq17J3n/Picsart-26-02-06-11-36-45-656.png" width="100%" />
+<table align="center">
+    <tr>
+        <td align="center" width="140" height="112.43">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="65px"/>
+            <br /> HTML (51.3%)
+        </td>
+        <td align="center" width="140" height="112.43">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="65px"/>
+            <br /> TypeScript (24.6%)
+        </td>
+        <td align="center" width="140" height="112.43">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opengl/opengl-original.svg" width="65px"/>
+            <br /> GLSL (20.8%)
+        </td>
+        <td align="center" width="140" height="112.43">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="65px"/>
+            <br /> SCSS (3.3%)
+        </td>
+    </tr>
+</table>
+</div>
+
+---
+
+## 🧩 Technologies & Libraries
+
+<div align="center">
+<table align="center">
+    <tr>
+        <td align="center" width="140" height="112.43">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg" width="65px"/>
+            <br /> Three.js / WebGL
+        </td>
+        <td align="center" width="140" height="112.43">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="65px"/>
+            <br /> NPM
+        </td>
+    </tr>
+</table>
 </div>
 
 | ![Satyam's GitHub stats](https://github-readme-stats.vercel.app/api?username=satyam-devx&show_icons=true&theme=radical) | [![Satyam's GitHub Streak](https://streak-stats.demolab.com?user=satyam-devx&theme=dark&border_radius=7&mode=weekly)](https://git.io/streak-stats) |
