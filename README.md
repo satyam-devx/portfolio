@@ -65,13 +65,13 @@ If you want to run this project locally, follow these steps:
   ```bash
   git clone https://github.com/Satyam-devx/portfolio.git
 
-Navigate to the project directory
+- **Navigate to the project directory**
+  ```bash
+  cd portfolio
 
-cd portfolio
-
-Open in VS Code
-
-code .
+- **Open in VS Code**
+  ```bash
+  code .
 
 Launch the site
 
